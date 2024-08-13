@@ -1,0 +1,75 @@
+body{
+    font-family:'Lato', sans-serif;
+    padding:0;
+    margin: 0;
+
+    
+}
+nav{
+    background-color: darkorchid;
+    color: white;
+    padding: 20px 30px;
+       
+}
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color:white;
+    padding:10px 20px;
+    border-radius: 10px;
+
+}
+.searchInput{
+    border:none;
+    background-color: transparent;
+
+    
+}
+.searchInput::placeholder{
+    color:black
+}
+h4{
+    background-color: darkorchid;
+    color: white;
+    text-shadow: black;
+    background-color: transparent;
+}
+.limitedOffer{
+    font-size: 18px;
+    
+    border-bottom: 2px solid black;
+    cursor:pointer
+}
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItem{
+    margin-right: 50px;
+    cursor:pointer;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.slider{
+    background-color: url("E:\pycharm programs\Website Project\img\white-abstract-background-design_23-2148825582.avif");
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+
+
+}
+.sliderWrapper{
+    display:flex;
+    width:500vw;
+
+}
+.sliderItem{
+width:100vw;
+
+}
+
+
